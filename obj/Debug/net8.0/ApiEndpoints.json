@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "TransEuCallbackHandler.Controllers.CallbacksController",
+    "Method": "GetEvents",
+    "RelativePath": "api/Callbacks/events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransEuCallbackHandler.Controllers.CallbacksController",
+    "Method": "ReceiveCallback",
+    "RelativePath": "api/Callbacks/receive",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "callbackData",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
